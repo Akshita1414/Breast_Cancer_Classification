@@ -108,5 +108,8 @@ def update_output(n_clicks, *args):
     
     return f"Prediction: {prediction_text}", fig_roc, fig_pr, fig_feature
 
+server = app.server
+
 if __name__ == "__main__":
     app.run_server(debug=True)
+
