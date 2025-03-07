@@ -1,5 +1,4 @@
-from app import app
-server = app.server  
+ 
 import dash
 import dash_bootstrap_components as dbc
 import plotly.express as px
